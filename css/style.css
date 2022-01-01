@@ -190,7 +190,11 @@ html {
 
 .pre {
   background-color: #fff3ea;
-  max-height: 270px;
+  max-height: 160px;
+  overflow: hidden;
+  font-size: 12px;
+  padding-left: 20px;
+  line-height: 18px;
 }
 
 .projects {
