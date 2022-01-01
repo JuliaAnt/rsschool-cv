@@ -240,3 +240,10 @@ html {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 940px) {
+  .page-container,
+  .sticky {
+    width: 100%;
+  }
+}
