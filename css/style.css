@@ -176,20 +176,6 @@ html {
   margin-bottom: 60px;
 }
 
-/*.section {
-  width: 50%;
-}
-
-@media (max-width: 575px) {
-  .master {
-    max-width: 1280px;
-    margin: auto;
-  }
-  .main-container {
-    grid-template-columns: 380px 1fr;
-  }
-}*/
-
 .section {
   font-size: 16px;
   font-weight: 400;
@@ -233,12 +219,24 @@ html {
   box-shadow: 0px 0px 24px 4px rgba(0, 0, 0, 0.2);
 }
 
-/*.link {
-  text-decoration: none;
-  color: #000000;
-  transition: color 0.5s;
-}
+@media screen and (max-width: 575px) {
+  .header {
+    display: none;
+  }
 
-.link:hover {
-  color: #5d7260;
-}*/
+  .main-container {
+    display: block;
+  }
+
+  .left-info {
+    padding: 10px;
+  }
+
+  .right-info {
+    padding: 10px;
+  }
+
+  .page-container {
+    width: 100%;
+  }
+}
