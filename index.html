@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html class="master" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="icon" href="img/favicon.ico" />
+  </head>
+  <body>
+    <div class="page-container">
+      <header id="header" class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts </a>
+            </li>
+            <li class="nav-item">
+              <a href="#about_me" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education & Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+            <li class="nav-item">
+              <a href="#my-projects" class="nav-link">My projects</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main-container">
+        <div class="left-info">
+          <section class="section photo-section">
+            <div class="photo">
+              <img
+                src="img/photo.JPG"
+                alt="There should be a photo of Julia Antoshkina"
+              />
+            </div>
+            <div>
+              <h1 class="title-left">Julia Antoshkina</h1>
+            </div>
+            <div>
+              <h3 class="title-left">Future Front-end developer</h3>
+            </div>
+            <h2 class="title-left">Call me</h2>
+            <div class="phone-number" title="Phone number">
+              <i
+                class="fa fa-phone-square contact-item-icon-mobile"
+                aria-hidden="true"
+              ></i>
+              <div>+48 555 555 555</div>
+            </div>
+          </section>
+
+          <section class="section" id="contacts">
+            <h2 class="title-left">Other contacts</h2>
+            <ul>
+              <li class="contact-item" title="E-mail">
+                <i class="fa fa-envelope contact-item-icon"></i>
+                <div>julia.antoshkina@gmail.com</div>
+              </li>
+
+              <li class="contact-item" title="Skype">
+                <i class="fab fa-skype contact-item-icon"></i>
+                <div>julka0912</div>
+              </li>
+
+              <li class="contact-item" title="Telegram">
+                <i class="fab fa-telegram contact-item-icon"></i>
+                <div>@JuliaAnt912</div>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="right-info">
+          <section class="section" id="about_me">
+            <h2 class="title-right">About me</h2>
+            <p>
+              I plan to master the direction of Java Script and develop as a JS
+              Front-end developer. My goal is to get a junior front-end
+              developer position using the experience gained on RS School
+              courses.
+            </p>
+          </section>
+          <section class="section" id="skills">
+            <h2 class="title-right">Skills</h2>
+            <ul>
+              <li>HTML+CSS (the basics);</li>
+              <li>JavaScript (the basics);</li>
+              <li>Git, GitHub (the basics);</li>
+              <li>VS Code (the basics)</li>
+            </ul>
+          </section>
+          <section class="section" id="code">
+            <h2 class="title-right">Code example</h2>
+            <pre class="pre">
+            <code>
+function stickyHeader() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+            </code>
+          </pre>
+          </section>
+          <section class="section" id="education">
+            <h2>Education & Courses</h2>
+            <ul>
+              <li>
+                RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+              </li>
+              <li>
+                East-Kazakhstan State Technical University named after D.
+                Serikbaeva Economics and Management, Master (2013-2015);
+              </li>
+              <li>
+                East-Kazakhstan State Technical University named after D.
+                Serikbaeva Economics and Management, Bachelor (2009-2013)
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li>Russian - Native;</li>
+              <li>English - Pre-Intermediate;</li>
+              <li>Polish - Basic</li>
+            </ul>
+          </section>
+          <section class="section" id="my-projects">
+            <h2>My projects</h2>
+            <a
+              class="projects"
+              href="https://JuliaAnt.github.io/rsschool-cv/"
+              target="_blank"
+            >
+              <img src="img/My-projects.JPG" alt="My CV" class="projects-img" />
+              <figcaption>My CV</figcaption>
+            </a>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="my-github">
+          <i class="fab fa-github contact-item-icon-github"></i>
+          <a
+            class="my-github"
+            href="https://github.com/JuliaAnt"
+            target="_blank"
+          >
+            My GitHub
+          </a>
+        </div>
+        <div class="year">2021</div>
+        <a class="rs-course" href="https://rs.school/" target="_blank">
+          <img src="img/rs_school.png" alt="RS Logo" />
+        </a>
+      </footer>
+    </div>
+
+    <script src="js/header.js" />
+  </body>
+</html>
